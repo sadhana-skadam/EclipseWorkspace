@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <dependencies>
+  <group name="checkT" depends-on="lauchB"/>
+    <group name="login" depends-on="checkT"/>
+      <group name="teardown" depends-on="login"/>
+      </dependencies>
+  </groups>
+ <classes>
+      <class name="TestNgpro.Group_depen"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

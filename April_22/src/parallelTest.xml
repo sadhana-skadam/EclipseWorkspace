@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestNgpro.parallelTest"/>
+            <class name="TestNgpro.kite_test"/>
+
+      <class name="TestNgpro.GroupTest"/>
+            <class name="TestNgpro.AnnotationTest"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
